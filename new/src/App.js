@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Step1 from './Step1';
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline text">
-        Hello world!
-    </h1>
-    <h1 class=""></h1>
+      <h1 className="text-3xl font-bold underline text-red-500">Calculator App</h1>
+      <Step1 />
     </>
   );
 }
